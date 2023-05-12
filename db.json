@@ -1,0 +1,8 @@
+{
+    "produits":[
+        {"id":1,"titre":"produit1","prix":20,"quantité":5,"like":0},
+        {"id":2,"titre":"produit2","prix":10,"quantité":3,"like":0},
+        {"id":3,"titre":"produit3","prix":30,"quantité":12,"like":0},
+        {"id":4,"titre":"produit4","prix":15,"quantité":18,"like":0}
+    ]
+}

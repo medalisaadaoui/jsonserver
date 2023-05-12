@@ -1,0 +1,11 @@
+<p>listeproduit works!</p> 
+<div class="row h-100 justify-center align-items-center">
+    <div *ngFor="let pr of listeproduit">
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;" >
+                <img src="pc.jpeg" class="card-img-top"  alt="">
+                <div class="card-body">
+                    <h5 class="card-title">{{pr.titre}}</h5>
+                    <p class="card-title">prix:  {{pr.prix}} $ --quantité:  {{pr.quantite}}</p>
+                    <a href="#" class="btn btn-primary">like</a>
+</div>
